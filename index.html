@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>sizeViewer</title>
+        <script src="ressources/jquery/jquery-3.6.0.js"></script>
+        <link rel="stylesheet" href="sizeViewer.css">
+    </head>
+
+    <body>
+        <div id="heightContainer">
+            <div>
+                <label for="heightValue">Height :</label>
+                <input type="number" id="heightValue" value="100">
+            </div>
+            <div>
+                <input type="radio" id="pxHeight" name="lengthUnitHeight" value="px" checked>
+                <label for="pxHeight">px</label>
+            </div>
+            <!--div>
+                <input type="radio" id="percentHeight" name="lengthUnitHeight" value="%">
+                <label for="percentHeight">%</label>
+            </div-->
+            <div>
+                <input type="radio" id="emHeight" name="lengthUnitHeight" value="em">
+                <label for="emHeight">em</label>
+            </div>
+            <div>
+                <input type="radio" id="remHeight" name="lengthUnitHeight" value="rem">
+                <label for="remHeight">rem</label>
+            </div>
+            <div>
+                <input type="radio" id="vh" name="lengthUnitHeight" value="vh">
+                <label for="vh">vh</label>
+            </div>
+        </div>
+
+        <div id="widthContainer">
+            <div>
+                <label for="widthValue">Width :</label>
+                <input type="number" id="widthValue" value="100">
+            </div>
+            <div>
+                <input type="radio" id="pxWidth" name="lengthUnitWidth" value="px" checked>
+                <label for="pxWidth">px</label>
+            </div>
+            <!--div>
+                <input type="radio" id="percentWidth" name="lengthUnitWidth" value="%">
+                <label for="percentWidth">%</label>
+            </div-->
+            <div>
+                <input type="radio" id="emWidth" name="lengthUnitWidth" value="em">
+                <label for="emWidth">em</label>
+            </div>
+            <div>
+                <input type="radio" id="remWidth" name="lengthUnitWidth" value="rem">
+                <label for="remWidth">rem</label>
+            </div>
+            <div>
+                <input type="radio" id="vw" name="lengthUnitWidth" value="vw">
+                <label for="vw">vw</label>
+            </div>
+        </div>
+
+        <div id="result">
+
+        </div>
+
+        <script type="text/javascript" src="sizeViewer.js"></script>
+    </body>
+
+</html>

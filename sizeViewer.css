@@ -1,0 +1,7 @@
+#result {
+    background-color: black;
+}
+
+#widthContainer,  #result {
+    margin-top: 5%;
+}
